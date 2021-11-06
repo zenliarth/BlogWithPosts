@@ -29,9 +29,9 @@
     </head>
 
     <body class="bg-gray-50">
-
-
-        @yield('body')
+        <div id="app">
+            @yield('content')
+        </div>
         
         @livewireScripts
         <x:notify-messages />
